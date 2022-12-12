@@ -9,9 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.btn.setOnClickListener {
-            var data = binding.edt.text.toString()
-            binding.txt.text = data
-        }
+
+
+
+
     }
 }

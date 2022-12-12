@@ -13,30 +13,24 @@ class checkbox : AppCompatActivity() {
         setContentView(binding.root)
         val button: Button = findViewById(R.id.submitButton)
 
-        button.setOnClickListener{
+        button.setOnClickListener {
             var checked = ""
             if (binding.checkBox.isChecked) {
                 checked += "Reading, "
-                Toast.makeText(applicationContext, "${binding.checkBox.text}", Toast.LENGTH_SHORT).show()
             }
             if (binding.checkBox2.isChecked) {
-                checked += "Reading, "
-                Toast.makeText(applicationContext, "${binding.checkBox2.text}", Toast.LENGTH_SHORT).show()
+                checked += "Swimming, "
             }
-
             if (binding.checkBox3.isChecked) {
-                Toast.makeText(applicationContext, "${binding.checkBox3.text}", Toast.LENGTH_SHORT).show()
+                checked += "Travelling, "
             }
-
             if (binding.checkBox4.isChecked) {
-                Toast.makeText(applicationContext, "${binding.checkBox4.text}", Toast.LENGTH_SHORT).show()
+                checked += "Sports, "
             }
             if (binding.checkBox5.isChecked) {
-                Toast.makeText(applicationContext, "${binding.checkBox5.text}", Toast.LENGTH_SHORT).show()
+                checked += "Watching Movies, "
             }
-
+                binding.txthobbies.text = checked
         }
-
     }
 }
-
