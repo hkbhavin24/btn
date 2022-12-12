@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CheckBox in Kotlin</string>
+    <string name="Heading">Select Your Hobbies</string>
+    <string name="checkBox2_text">Swimming</string>
+    <string name="checkBox1_text">Reading</string>
+    <string name="checkBox3_text">Travelling</string>
+    <string name="checkBox4_text">Sports</string>
+    <string name="checkBox5_text">Watching Movies</string>
+    <string name="submitButton">SUBMIT</string>
+    <string name="hobbies">hobbies</string>
+</resources>
