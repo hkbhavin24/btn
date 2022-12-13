@@ -5,12 +5,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import com.example.btn.databinding.FragmentUserBinding
+import com.example.btn.databinding.FragmentProfileBinding
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
-class userFragment : Fragment() {
+
+
+class profile : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
@@ -26,14 +27,14 @@ class userFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        var binding=FragmentUserBinding.inflate(layoutInflater)
+        var binding = FragmentProfileBinding.inflate(layoutInflater)
         return binding.root
     }
 
     companion object {
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            userFragment().apply {
+            profile().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
