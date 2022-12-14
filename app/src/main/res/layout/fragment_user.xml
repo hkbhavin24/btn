@@ -10,7 +10,7 @@
     android:id="@+id/txtuser"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="User fragment"
+    android:text="chat fragment"
     android:textColor="@color/black"
     android:textSize="50dp"
     android:gravity="center"

@@ -10,14 +10,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.tUser.setOnClickListener {
+        binding.chat.setOnClickListener {
 
             loadFragment(userFragment())
+
+//            var user = userFragment()
+//            var manager = supportFragmentManager
+//            var trasaction = manager.beginTransaction()
+//            trasaction.replace(R.id.fragframe,user)
+//            trasaction.commit()
+
         }
 
-        binding.tProfile.setOnClickListener {
+        binding.status.setOnClickListener {
 
             loadFragment(profile())
+        }
+        binding.call.setOnClickListener {
+
+            loadFragment(call())
         }
     }
 

@@ -16,19 +16,19 @@ class checkbox : AppCompatActivity() {
         button.setOnClickListener {
             var checked = ""
             if (binding.checkBox.isChecked) {
-                checked += "Reading, "
+                checked += "Reading\n"
             }
             if (binding.checkBox2.isChecked) {
-                checked += "Swimming, "
+                checked += "Swimming\n"
             }
             if (binding.checkBox3.isChecked) {
-                checked += "Travelling, "
+                checked += "Travelling\n"
             }
             if (binding.checkBox4.isChecked) {
-                checked += "Sports, "
+                checked += "Sports\n"
             }
             if (binding.checkBox5.isChecked) {
-                checked += "Watching Movies, "
+                checked += "Watching Movies\n"
             }
                 binding.txthobbies.text = checked
         }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profile">
+    tools:context=".call">
 
     <TextView
-        android:id="@+id/txtprofile"
+        android:id="@+id/txtuser"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="status fragment"
+        android:text="call fragment"
         android:textColor="@color/black"
         android:textSize="50dp"
         android:gravity="center"
-        android:background="#3232AA"/>
+        android:background="#0D3A61"/>
 
-</FrameLayout>
+</LinearLayout>
